@@ -1,0 +1,30 @@
+<html style="background: rgba(0, 0, 0, 0);">
+    <head>
+        <title>Zerdot live</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="renderer" content="webkit">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/mdui.min.css">
+        <script src="js/mdui.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/userfunction.js"></script>
+    </head>
+    <body class="mdui-theme-layout-dark mdui-color-theme mdui-bottom-nav-fixed">
+        <div class="mdui-appbar mdui-appbar-fixed ">
+            <div class="mdui-toolbar mdui-color-theme">
+                <a class="mdui-typo-title">SSFLS 2017-2020届毕业典礼</a>
+                <div class="mdui-toolbar-spacer"></div>
+                <button class="mdui-typo-title mdui-text-right mdui-btn mdui-btn-icon mdui-color-theme-accent mdui-ripple" onclick="user();"><i class="mdui-icon material-icons">&#xe853;</i></button>
+            </div>
+        </div>
+        <div class="mdui-bottom-nav mdui-color-grey-900 mdui-center mdui-valign">
+            <div class="mdui-textfield" style="margin-left:10px;margin-top:5px;margin-bottom:5px;width:80%;">
+                <textarea class="mdui-textfield-input" rows="2" placeholder="在此输入弹幕..." id="input"></textarea>
+              </div>
+              <div class="mdui-center mdui-valign">
+              <button class="mdui-typo-title mdui-text-right mdui-btn mdui-btn-icon mdui-color-theme-accent mdui-ripple" onclick="send();"><i class="mdui-icon material-icons">&#xe163;</i></button>
+            </div>
+          </div>
+    </body>
+</html>
