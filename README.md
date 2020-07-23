@@ -16,7 +16,7 @@ A electron app which makes it possible to have the Danmaku function on desktop.
 
 ## Application Dependencies ##
 
-Electron, [Damoo](https://github.com/jamesliu96/Damoo), Express, Path and NodeJS.
+[MDUI](https://www.mdui.org), Electron, [Damoo](https://github.com/jamesliu96/Damoo), Express, Path and NodeJS.
 
 ## Someting to Say ##
 
