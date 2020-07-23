@@ -8,11 +8,11 @@ A electron app which makes it possible to have the Danmaku function on desktop.
 
 2.Install Node.JS and dependencies.
 
-'npm install'
+`npm install`
 
 3.Start electron!
 
-'npm start'
+`npm start`
 
 ## Application Dependencies ##
 
